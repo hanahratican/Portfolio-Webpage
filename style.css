@@ -1,0 +1,31 @@
+#first-last-name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-align: right;
+    color: cornflowerblue;
+    opacity: 75%;
+    background-color: lavenderblush;
+}
+
+.contact-link {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.contact-link:hover {
+    background-color: lavender;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+}
+
+.projects-section {
+    display: inline-block;
+}
+
+
+
