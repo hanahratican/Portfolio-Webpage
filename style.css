@@ -1,38 +1,85 @@
+body {
+    background-image: url(pink-yellow-plain-background_53876-98329.webp);
+    position: relative;
+}
+
+
+
+
+
 #first-last-name {
     height: 100%;
-    width: 20%;
-    margin-left: 50px;
+    width: 40%;
+    margin-left: 60%;
+    margin-bottom: 1%;
     border-radius: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
     text-align: center;
-    color: cornflowerblue;
+    color: rgb(175, 255, 203);
     opacity: 75%;
-    background-color: lavenderblush;
+    font-display: ;
+    
     
 }
 
-.contact-link {
+.links {
     font-family: monospace;
     font-size: 15px;
     height: 100%;
     width: 10%;
+    margin-left: 63%;
+    padding-top: 0;
 }
 
-.contact-link:hover {
+li.link-list:hover {
     background-color: lavender;
-    
 }
+
 
 img {
     text-align: center;
-    margin-left: 250px;
+    margin-left: 10%;
     height: 20%;
     width: 20%;
 }
 
-.projects-section {
+.about-me {
+
+}
+
+.projects {
+    border-style: double;
+    border-radius: 15px;
+    border-color: blue;
     display: inline-block;
+    margin: 0 0 0 0;
+    width: 5%;
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+h2 {
+    width: 50%;
+}
+
+h2:hover {
+
+}
+
+
+p.project-description {
+    width: 50%;
+    
+}
+
+
+.footer {
+    display: inline;
+    list-style: none;
+
 }
 
 
