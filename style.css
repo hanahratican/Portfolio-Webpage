@@ -1,0 +1,132 @@
+body {
+    background-image: linear-gradient(to bottom right,honeydew, rgb(255, 209, 217));
+    position: relative;
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkgreen;
+    margin: 0 auto;
+}
+
+
+#first-last-name {
+    height: 100%;
+    width: 40%;
+    margin-left: 60%;
+    margin-bottom: 1%;
+    border-radius: 15px;
+    padding-bottom: 0;
+    font-size: 60px;
+    text-align: center;
+    color: darkgreen;
+    opacity: 75%;
+}
+
+
+.links {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    height: 1%;
+    width: 20%;
+    margin-left: 65%;
+    padding: 0 10px;
+    list-style: none;
+}
+
+.toplinks {
+    text-align: left;
+    padding: 5px;
+}
+
+li.link-list {
+    padding: 0 10px;
+
+}
+
+li.link-list:hover {
+    background-color: lavender;
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+
+img {
+    text-align: center;
+    margin-left: 10%;
+    height: 20%;
+    width: 20%;
+    border-radius: 30px;
+}
+
+img.project-photo {
+    height: 75%;
+    width: 75%;
+    border-radius: 15px;
+}
+
+.about-me {
+    display: flex;
+    width: 40%;
+    text-align: center;
+    margin-left: 5px;
+    border-style: double;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.projects {
+    display: flex;
+    width: 40%;
+    text-align: center;
+    margin-left: 5px;
+    border-style: double;
+    border-radius: 15px;
+    border-color: white;
+}
+
+h2.project-header {
+    text-align: center;
+    margin: 50px 10px;
+    padding: 50px 10px;
+}
+
+p.project-description {
+    width: 50%;
+    
+}
+
+hr {
+    border-style: double;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    margin-left: 5px;
+    width: 60%;
+    display: flex;
+}
+
+h3.footer {
+    display: flex;
+    padding-top: 5px;
+    width: 30%;
+}
+
+.contact {
+    list-style: none;
+    display: flex;
+    padding: 10px 10px;
+}
+
+li.contact-info {
+    display: flex;
+    padding: 0 10px;
+    margin: 0 10px
+}
+
+
+
+
