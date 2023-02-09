@@ -42,7 +42,11 @@ img.my-picture {
     font-size: 35px;
 }
 
-#myprojects {
+#project1 {
+    /* Make this project appear larger than the others by adding id's to the photo and project header */
+}
+
+.projects {
     margin-top: 20px;
     margin-left: 20px;
     width: 50%;
