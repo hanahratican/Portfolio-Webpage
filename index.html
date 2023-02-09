@@ -24,99 +24,105 @@
   </head>
 
   <body>
-    <header class="header">
-      <div id="page-header">
-        <img src="IMG_3804.JPG" alt="Photo of me" class="my-picture" />
-        <h1 id="first-last-name" class="gradient-text">Hanah Ratican</h1>
-        <nav class="toplinks">
-          <ul class="links">
-            <li class="link-list"><a href="#contact-me">Conact Me</a></li>
-            <li class="link-list"><a href="#aboutme">About Me</a></li>
-            <li class="link-list"><a href="#myprojects">My Projects</a></li>
+    <div class="container">
+      <header class="header">
+        <div id="page-header">
+          <img src="IMG_3804.JPG" alt="Photo of me" class="my-picture" />
+          <h1 id="first-last-name" class="gradient-text">Hanah Ratican</h1>
+          <nav class="toplinks">
+            <ul class="links">
+              <li class="link-list"><a href="#contact-me">Conact Me</a></li>
+              <li class="link-list"><a href="#aboutme">About Me</a></li>
+              <li class="link-list"><a href="#myprojects">My Projects</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <article class="about-me">
+        <h2 id="aboutme">About Me</h2>
+        <p>
+          I recieved my certificate of completion from the UCSD Coding Bootcamp.
+          I am experienced in.....
+        </p>
+      </article>
+
+      <div id="projects-container">
+        <h2 id="myprojects-header">My Projects</h2>
+        <section id="project1" class="projects">
+          <h3 id="project1-title"class="project-header">
+            <a href="https://sadiemantlo.github.io/Project-1/" target="_blank"
+              >Craft and Cocktail</a
+            >
+          </h3>
+          <img
+            src="200804-2121x1414-cocktails.jpeg"
+            alt="An image of a cocktail drinks."
+            class="project-photo"
+          />
+          <p class="project-description">
+            Craft and Cocktail is a responsive web application that generates
+            random cocktails along with their recipe and instructions for how to
+            make them. You can save your favorites to come back to later. It is great for giving you new ideas on what to order on
+            a night out, or allowing you to stay in and save money by making
+            your drinks at home!
+          </p>
+        </section>
+        <section class="projects">
+          <h3 class="project-header">
+            <a href="#" target="_blank">Chess Game</a>
+          </h3>
+          <img
+            src="chess_image.jpeg"
+            alt="Image of a chess piece."
+            class="project-photo"
+          />
+          <p class="project-description"></p>
+        </section>
+        <section class="projects">
+          <h3 class="project-header">
+            <a href="#" target="_blank">Workout Tracker</a>
+          </h3>
+          <img
+            src="gym-image.jpeg"
+            alt="Image of a weight rack."
+            class="project-photo"
+          />
+          <p class="project-description"></p>
+        </section>
+       </div>
+
+      <hr />
+
+      <footer id="contact-me" class="footer">
+        <h3 class="footer">Contact Me</h3>
+        <nav>
+          <ul class="contact">
+            <li class="contact-info">Email: Hanahratican@gmail.com</li>
+            <li class="contact-info">Cell phone #: 619-609-6187</li>
+            <li>
+              <a href="https://github.com/hanahratican" target="_blank"
+                >Github</a
+              >
+            </li>
           </ul>
         </nav>
-      </div>
-    </header>
-
-    <article class="about-me">
-      <h2 id="aboutme">About Me</h2>
-      <p>
-        I recieved my certificate of completion from the UCSD Coding Bootcamp. I
-        am experienced in.....
-      </p>
-    </article>
-
-    <section id="project1" class="projects">
-      
-        <h2>My Projects</h2>
-        <h3 class="project-header">
-          <a href="https://sadiemantlo.github.io/Project-1/" target="_blank"
-            >Craft and Cocktail</a
-          >
-        </h3>
-        <img
-          src="200804-2121x1414-cocktails.jpeg"
-          alt="An image of a cocktail drinks."
-          class="project-photo"
-        />
-        <p class="project-description">
-          Craft and Cocktail is a responsive web application that generates
-          random cocktails along with their recipe and instructions for how to
-          make them. It is great for giving you new ideas on what to order on a
-          night out, or allowing you to stay in and save money buy making your
-          drinks at home!
-        </p>
-      
-    </section>
-    <section class="projects">
-      <h3 class="project-header"><a href="#" target="_blank">Chess Game</a></h3>
-      <img
-        src="chess_image.jpeg"
-        alt="Image of a chess piece."
-        class="project-photo"
-      />
-      <p class="project-description"></p>
-    </section>
-    <section class="projects">
-      <h3 class="project-header">
-        <a href="#" target="_blank">Workout Tracker</a>
-      </h3>
-      <img
-        src="gym-image.jpeg"
-        alt="Image of a weight rack."
-        class="project-photo"
-      />
-      <p class="project-description"></p>
-    </section>
-
-    <hr />
-
-    <footer id="contact-me" class="footer">
-      <h3 class="footer">Contact Me</h3>
-      <nav>
-        <ul class="contact">
-          <li class="contact-info">Email: Hanahratican@gmail.com</li>
-          <li class="contact-info">Cell phone #: 619-609-6187</li>
-          <li>
-            <a href="https://github.com/hanahratican" target="_blank">Github</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+      </footer>
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
+      ></script>
+    </div>
   </body>
 </html>
