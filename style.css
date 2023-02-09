@@ -1,12 +1,71 @@
-body {
-    background-image: linear-gradient(to bottom right,honeydew, rgb(255, 209, 217));
-    position: relative;
-}
-
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Prata', serif;
     color: darkgreen;
     margin: 0 auto;
+}
+
+body {
+    background-image: linear-gradient(to bottom right,honeydew, rgb(255, 209, 217));
+    display: flexbox;
+}
+
+#page-header {
+    background: white;
+    width: 100%;
+    height: 350px;
+}
+
+#first-last-name {
+    margin-left: 33%;
+    font-size: 70px;
+}
+
+.toplinks {
+    margin-left: 45%;
+}
+
+img.my-picture {
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.about-me {
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#aboutme {
+    font-size: 35px;
+}
+
+#myprojects {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.project-header {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.project-photo {
+    height: 150px;
+    margin-left: 20px;
+}
+
+.project-description {
+    margin-top: 20px;
+}
+
+
+/*#myname-links {
+    width: 50%;
+    
 }
 
 
@@ -51,14 +110,6 @@ li.link-list:hover {
     margin-left: 0px;
 }
 
-
-img {
-    text-align: center;
-    margin-left: 10%;
-    height: 20%;
-    width: 20%;
-    border-radius: 30px;
-}
 
 img.project-photo {
     height: 75%;
@@ -129,4 +180,4 @@ li.contact-info {
 
 
 
-
+ */
