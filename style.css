@@ -7,7 +7,13 @@
 body {
     background-image: linear-gradient(to bottom right,honeydew, rgb(255, 209, 217));
     display: flexbox;
+    /* animation: mymove 5s infinite */
 }
+
+/* @keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+  } */
 
 #page-header {
     background: white;
@@ -16,7 +22,7 @@ body {
 }
 
 #first-last-name {
-    margin-left: 33%;
+    margin-left: 30%;
     font-size: 70px;
 }
 
@@ -33,16 +39,30 @@ img.my-picture {
 
 .about-me {
     margin-top: 150px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-bottom: 50px;
     width: 100%;
 }
 
 #aboutme {
-    font-size: 35px;
+    font-size: 50px;
 }
 
-#myprojects {
+#myprojects-header {
+    font-size: 45px;
+    margin-top: 150px;
+}
+
+#project1-title {
+    font-size: 40px;
+}
+
+#project1 {
+    /* Make this project appear larger than the others by adding id's to the photo and project header */
+
+}
+
+.projects {
     margin-top: 20px;
     margin-left: 20px;
     width: 50%;
@@ -51,6 +71,7 @@ img.my-picture {
 .project-header {
     margin-top: 50px;
     margin-left: 20px;
+    font-size: 30px;
 }
 
 .project-photo {
